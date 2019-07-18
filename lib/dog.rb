@@ -11,9 +11,11 @@ end
 def self.all()
    return @@all 
 end
+
 def self.clear_all
 @@all.clear
 end
+
 def Dog.print_all
     @@all.select do |dog| 
     puts "#{dog.name}"
